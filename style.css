@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/print.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#cookie-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-buy { background: green; }
+.btn-exit { background: red; }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cookie-modal">
+        <p>DESSE JEITO?.</p>
+        <button class="btn btn-buy" onclick="comprar()">Comprar</button>
+        <button class="btn btn-exit" onclick="sair()">Sair</button>
+    </div>
+
+    <script>
+        function comprar() {
+            alert("Redirecionando para compra...");
+            window.location.href = "https://exemplo.com/compra";
+        }
+        function sair() {
+            alert("Saindo da página...");
+            window.location.href = "https://www.google.com";
+        }
+    </script>
+</body>
+</html>
